@@ -27,4 +27,4 @@ console.log(collegeName) // undefined
 
 
 let collegeId = "null"
-console.log(collegeId)
+console.log(collegeId) // null
