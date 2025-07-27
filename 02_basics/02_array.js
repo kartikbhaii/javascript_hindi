@@ -9,20 +9,20 @@ console.log(marvel_heroes); // print marvel array aur unske andar hi it prints d
 
 // ------------------------- (1) USING CONCAT METHOD ----------------------------//
 
-// const newArr = marvel_heroes.concat(dc_heroes) // concat returns new array
-// console.log(newArr)
+const newArr = marvel_heroes.concat(dc_heroes) // concat returns new array
+console.log(newArr)
 
 // ------------------ (2) USING SPREAD OPERATOR (EASY METHOD TO ADD ARRAYS)-----------------//
 
-// const all_heroes = [...marvel_heroes, ...dc_heroes] // syntax: 3 dots and then array name "...arrayname"
-// console.log(all_heroes)
+const all_heroes = [...marvel_heroes, ...dc_heroes] // syntax: 3 dots and then array name "...arrayname"
+console.log(all_heroes)
 
 // --------------------------------------------------
 
-// const another_array = [1,2,3,[4,5,6], 7, [6,7,[4,5,6]]]
+const another_array = [1,2,3,[4,5,6], 7, [6,7,[4,5,6]]]
 
-// const real_another_array = another_array.flat(Infinity)
-// console.log(real_another_array)
+const real_another_array = another_array.flat(Infinity)
+console.log(real_another_array)
 
 
 
