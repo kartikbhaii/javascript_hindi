@@ -4,8 +4,8 @@ const dc_heroes = ["batman", "superman", "flash"]
 
 // --------------------------- HOW TO ADD BOTH ARRAY IN ONE ARRAY -------------------------------//
 
-// marvel_heroes.push(dc_heroes) 
-// console.log(marvel_heroes); // print marvel array aur unske andar hi it prints dc heroes array as an element.
+marvel_heroes.push(dc_heroes) 
+console.log(marvel_heroes); // print marvel array aur unske andar hi it prints dc heroes array as an element.
 
 // ------------------------- (1) USING CONCAT METHOD ----------------------------//
 
