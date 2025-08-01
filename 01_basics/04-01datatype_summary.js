@@ -17,12 +17,12 @@ let userEmail
 const id = Symbol('123')
 const anotherId = Symbol('123')
 
-// console.log(id === anotherId)
+console.log(id === anotherId)
 // symbol make unique thats why they are not equal even with the same data
 
 const bigNumber = 51654985451564686465468n
 
-// console.log(bigNumber)
+console.log(bigNumber)
 
 
 
@@ -39,7 +39,7 @@ let myObj = {
     city: "ballia"
 }
 
-// console.log(myObj.name);
+console.log(myObj.name);
 
 
 const myFunction = function(){
@@ -48,17 +48,17 @@ const myFunction = function(){
 
 
 
-// console.log(typeof score)
-// console.log(typeof scoreValue)
-// console.log(typeof isLoggedIn);
-// console.log(typeof outsideTemp); // type of (null) => object
-// console.log(typeof userEmail);
-// console.log(typeof id);
-// console.log(typeof anotherId);
-// console.log(typeof bigNumber);
-// console.log(typeof heroes); // type of array => object
-// console.log(typeof myObj); // type of object => object
-// console.log(typeof myFunction); // type of funciton => funciton
+console.log(typeof score)
+console.log(typeof scoreValue)
+console.log(typeof isLoggedIn);
+console.log(typeof outsideTemp); // type of (null) => object
+console.log(typeof userEmail);
+console.log(typeof id);
+console.log(typeof anotherId);
+console.log(typeof bigNumber);
+console.log(typeof heroes); // type of array => object
+console.log(typeof myObj); // type of object => object
+console.log(typeof myFunction); // type of funciton => funciton
 
 
 
@@ -72,14 +72,14 @@ const myFunction = function(){
 // to agar nye variable me heap ka data change kiya jaye to original jagah se bhi change hoga, aur stack me aisa nhi hota
 
 
-// let myYoutubeName = "Kartikey Singh"
-// let anotherName = myYoutubeName
-// console.log(anotherName)
-// console.log(myYoutubeName)
+let myYoutubeName = "Kartikey Singh"
+let anotherName = myYoutubeName
+console.log(anotherName)
+console.log(myYoutubeName)
 
-// anotherName = "tehri aur code"
-// console.log(anotherName)
-// console.log(myYoutubeName)
+anotherName = "chai aur code"
+console.log(anotherName)
+console.log(myYoutubeName)
 
 
 
