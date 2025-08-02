@@ -1,6 +1,6 @@
 const name = "kartikey singh";
 const repoCount = 50;
-// console.log(name + repoCount + " Value")
+console.log(name + repoCount + " Value")
 
 //NOTE: 
 USE NEW FORMAT TO USE STRING USING BACKSTRICK `  `
@@ -35,4 +35,5 @@ const urlNew = url.replace('%20', '-')
 console.log(urlNew)
 
 console.log(url.includes('kartikey')) //------------- true!!! ---------------//
+
 
