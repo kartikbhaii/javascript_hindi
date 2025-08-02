@@ -3,7 +3,7 @@ const repoCount = 50;
 // console.log(name + repoCount + " Value")
 
 //NOTE: 
-// USE NEW FORMAT TO USE STRING USING BACKSTRICK `  `
+USE NEW FORMAT TO USE STRING USING BACKSTRICK `  `
 
 console.log(`Hello world ${name} and my repo count is ${repoCount}`);
 
@@ -35,3 +35,4 @@ const urlNew = url.replace('%20', '-')
 console.log(urlNew)
 
 console.log(url.includes('kartikey')) //------------- true!!! ---------------//
+
